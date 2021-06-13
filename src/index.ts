@@ -47,6 +47,3 @@ export const renderData = (mapObject: any, geojson: any, styleProps: any = {}): 
 export const attachEvent = (obj: any, event: string, callback: any): any => {
 	obj.on(event, callback);
 }
-
-
-
