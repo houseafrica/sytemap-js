@@ -23,10 +23,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.attachEvent = exports.renderData = exports.initMap = void 0;
 var L = __importStar(require("leaflet"));
 var initMap = function (elemId, layers) {
+    if (layers === void 0) { layers = []; }
     var map = L.map("map").setView([0, 0], 3);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+    if (layers.length == 0) {
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    }
     return map;
 };
 exports.initMap = initMap;
