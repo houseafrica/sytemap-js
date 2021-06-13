@@ -1,6 +1,6 @@
-import * as L from "leaflet"
+import * as L from "leaflet";
 
-export function initMap (elemId: string, layers: any = []): any {
+export const initMap = (elemId: string, layers: any = []): any => {
 	const map = L.map("map").setView([0,0], 3);
 	if (layers.length == 0){	
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -11,7 +11,7 @@ export function initMap (elemId: string, layers: any = []): any {
 	return map;
 }
 
-export function renderData (mapObject: any, geojson: any, styleProps: any = {}): any {
+export const renderData = (mapObject: any, geojson: any, styleProps: any = {}): any => {
 	let styleFunc;
 	if (typeof styleProps.conditions !== "undefined"){
 		const prop = styleProps.property;
@@ -44,7 +44,7 @@ export function renderData (mapObject: any, geojson: any, styleProps: any = {}):
 	return layer;
 }
 
-export function attachEvent (obj: any, event: string, callback: any): any {
+export const attachEvent = (obj: any, event: string, callback: any): any => {
 	obj.on(event, callback);
 }
 
