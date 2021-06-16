@@ -31,6 +31,7 @@ var initMap = function (elemId, layers) {
     }
     else {
         var layer = layers[0];
+        console.log(layer);
         L.tileLayer(layer.url, layer.opts).addTo(map);
     }
     return map;

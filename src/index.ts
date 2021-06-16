@@ -9,6 +9,7 @@ export const initMap = (elemId: string, layers: any = []): any => {
 	}
 	else {
 		const layer = layers[0];
+		console.log(layer);
 		L.tileLayer(layer.url, layer.opts).addTo(map);
 	}
 
