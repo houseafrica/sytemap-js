@@ -9,7 +9,7 @@ export const initMap = (elemId: string, layers: any = []): any => {
 	}
 	else {
 		const layer = layers[0];
-		L.tileLayer(layer.url, layer.opts);
+		L.tileLayer(layer.url, layer.opts).addTo(map);
 	}
 
 	return map;

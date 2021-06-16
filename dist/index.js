@@ -32,7 +32,7 @@ var initMap = function (elemId, layers) {
     }
     else {
         var layer = layers[0];
-        L.tileLayer(layer.url, layer.opts);
+        L.tileLayer(layer.url, layer.opts).addTo(map);
     }
     return map;
 };
