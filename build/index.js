@@ -29,6 +29,10 @@ var initMap = function (elemId, layers) {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
     }
+    else {
+        var layer = layers[0];
+        L.tileLayer(layer.url, layer.opts);
+    }
     return map;
 };
 exports.initMap = initMap;
