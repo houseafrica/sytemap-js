@@ -1,0 +1,621 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"geo",
+				"geojsonRewind"
+			],
+			[
+				"ma",
+				"mapboxAccessToken"
+			],
+			[
+				"syte",
+				"sytemap-js"
+			],
+			[
+				"array_ke",
+				"array_key_exists()"
+			],
+			[
+				"expo",
+				"exports"
+			],
+			[
+				"hd",
+				"hide"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.ts",
+			"settings":
+			{
+				"buffer_size": 1413,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "\n\nexport"
+					},
+					"CAAAADgFAAAAAAAAOQUAAAAAAAAAAAAAOQUAAAAAAAA6BQAAAAAAAAAAAAA6BQAAAAAAADsFAAAAAAAAAAAAADsFAAAAAAAAPAUAAAAAAAAAAAAAPAUAAAAAAAA9BQAAAAAAAAAAAAA9BQAAAAAAAD4FAAAAAAAAAAAAAD4FAAAAAAAAPwUAAAAAAAAAAAAAPwUAAAAAAABABQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAUAAAAAAAA4BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " const"
+					},
+					"BgAAAEAFAAAAAAAAQQUAAAAAAAAAAAAAQQUAAAAAAABCBQAAAAAAAAAAAABCBQAAAAAAAEMFAAAAAAAAAAAAAEMFAAAAAAAARAUAAAAAAAAAAAAARAUAAAAAAABFBQAAAAAAAAAAAABFBQAAAAAAAEYFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQAUAAAAAAABABQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAEYFAAAAAAAARwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARgUAAAAAAABGBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "initFeatureGr"
+					},
+					"DQAAAEcFAAAAAAAASAUAAAAAAAAAAAAASAUAAAAAAABJBQAAAAAAAAAAAABJBQAAAAAAAEoFAAAAAAAAAAAAAEoFAAAAAAAASwUAAAAAAAAAAAAASwUAAAAAAABMBQAAAAAAAAAAAABMBQAAAAAAAE0FAAAAAAAAAAAAAE0FAAAAAAAATgUAAAAAAAAAAAAATgUAAAAAAABPBQAAAAAAAAAAAABPBQAAAAAAAFAFAAAAAAAAAAAAAFAFAAAAAAAAUQUAAAAAAAAAAAAAUQUAAAAAAABSBQAAAAAAAAAAAABSBQAAAAAAAFMFAAAAAAAAAAAAAFMFAAAAAAAAVAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARwUAAAAAAABHBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "oup"
+					},
+					"AwAAAFQFAAAAAAAAVQUAAAAAAAAAAAAAVQUAAAAAAABWBQAAAAAAAAAAAABWBQAAAAAAAFcFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAUAAAAAAABUBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAFcFAAAAAAAAWAUAAAAAAAAAAAAAWAUAAAAAAABZBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVwUAAAAAAABXBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAFkFAAAAAAAAWgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWQUAAAAAAABZBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAFoFAAAAAAAAXAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgUAAAAAAABaBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAFwFAAAAAAAAXQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXAUAAAAAAABcBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": " any"
+					},
+					"BAAAAF0FAAAAAAAAXgUAAAAAAAAAAAAAXgUAAAAAAABfBQAAAAAAAAAAAABfBQAAAAAAAGAFAAAAAAAAAAAAAGAFAAAAAAAAYQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXQUAAAAAAABdBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": " =>"
+					},
+					"AwAAAGEFAAAAAAAAYgUAAAAAAAAAAAAAYgUAAAAAAABjBQAAAAAAAAAAAABjBQAAAAAAAGQFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYQUAAAAAAABhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAGQFAAAAAAAAZQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAUAAAAAAABkBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAGUFAAAAAAAAZwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZQUAAAAAAABlBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAAGYFAAAAAAAAZwUAAAAAAAAAAAAAZwUAAAAAAABoBQAAAAAAAAAAAABnBQAAAAAAAGgFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZgUAAAAAAABmBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "return"
+					},
+					"BgAAAGgFAAAAAAAAaQUAAAAAAAAAAAAAaQUAAAAAAABqBQAAAAAAAAAAAABqBQAAAAAAAGsFAAAAAAAAAAAAAGsFAAAAAAAAbAUAAAAAAAAAAAAAbAUAAAAAAABtBQAAAAAAAAAAAABtBQAAAAAAAG4FAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAaAUAAAAAAABoBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " new"
+					},
+					"BAAAAG4FAAAAAAAAbwUAAAAAAAAAAAAAbwUAAAAAAABwBQAAAAAAAAAAAABwBQAAAAAAAHEFAAAAAAAAAAAAAHEFAAAAAAAAcgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAbgUAAAAAAABuBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": " L.Feature"
+					},
+					"CgAAAHIFAAAAAAAAcwUAAAAAAAAAAAAAcwUAAAAAAAB0BQAAAAAAAAAAAAB0BQAAAAAAAHUFAAAAAAAAAAAAAHUFAAAAAAAAdgUAAAAAAAAAAAAAdgUAAAAAAAB3BQAAAAAAAAAAAAB3BQAAAAAAAHgFAAAAAAAAAAAAAHgFAAAAAAAAeQUAAAAAAAAAAAAAeQUAAAAAAAB6BQAAAAAAAAAAAAB6BQAAAAAAAHsFAAAAAAAAAAAAAHsFAAAAAAAAfAUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcgUAAAAAAAByBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"left_delete",
+					null,
+					"AQAAAHsFAAAAAAAAewUAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAfAUAAAAAAAB8BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "Group"
+					},
+					"BQAAAHsFAAAAAAAAfAUAAAAAAAAAAAAAfAUAAAAAAAB9BQAAAAAAAAAAAAB9BQAAAAAAAH4FAAAAAAAAAAAAAH4FAAAAAAAAfwUAAAAAAAAAAAAAfwUAAAAAAACABQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAewUAAAAAAAB7BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAIAFAAAAAAAAggUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgAUAAAAAAACABQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAIIFAAAAAAAAgwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAggUAAAAAAACCBQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				"Set Syntax: Git Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"vmen",
+				"View: Toggle Menu"
+			],
+			[
+				"vme",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"git status",
+			"git",
+			"git status"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/build",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/src"
+	],
+	"file_history":
+	[
+		"/C/dev/projects/houseafrica/sytemap/index.html",
+		"/C/dev/projects/houseafrica/propvat/mortgage/property-list.php",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/index.html",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/map-view/map-view.component.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/server-request.service.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/angular.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/@mapbox/geojson-rewind/index.js",
+		"/C/dev/projects/houseafrica/geojson-rewind/package.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/package.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/types.d.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/app.module.ts",
+		"/C/dev/projects/aiq/incidence-dashboard/front/src/app/app.module.ts",
+		"/C/dev/projects/aiq/incidence-dashboard/front/src/app/server-request.service.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/sytemap-js/dist/index.js",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/sytemap-js/src/index.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/sytemap-js/build/index.js",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/package.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/build/index.js",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/src/index.d.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/tsconfig.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/@types/leaflet/index.d.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/types.d.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/tsconfig.app.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/tsconfig.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/tsconfig.spec.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/map-view/map-view.component.css",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/sytemap-js/tsconfig.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/sytemap-js/package.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-js/node_modules/@types/leaflet/index.d.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/node_modules/stylus-loader/package.json",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/app-routing.module.ts",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/property-browser/property-browser.component.html",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/assets/css/theme.css",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/assets/js/theme.js",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/assets/css/plugins.css",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/assets/css/globals.css",
+		"/C/dev/projects/houseafrica/sytemap/sytemap-app/src/app/app.component.html",
+		"/C/dev/projects/aiq/gidad/gidad-front/src/app/app.routing.ts",
+		"/C/dev/projects/houseafrica/sytemap/kubo-ui/src/app/app-routing.module.ts",
+		"/C/dev/projects/houseafrica/gisdata/cad_data/kd_export/buildings/AdMapKey_571.geojson",
+		"/C/dev/projects/houseafrica/propvat/index.php",
+		"/C/dev/projects/houseafrica/propvat/include/dark-header.php",
+		"/C/dev/projects/houseafrica/propvat/include/script.php",
+		"/C/dev/projects/houseafrica/propvat/include/header.php",
+		"/C/dev/projects/houseafrica/propvat/include/meta.php",
+		"/C/dev/projects/houseafrica/gisdata/cad_data/kd_export/boundary/estate_boundary.geojson",
+		"/C/dev/projects/houseafrica/gisdata/cad_data/kd_export/buildings/AdMapKey_583.geojson",
+		"/C/dev/projects/houseafrica/gisdata/cad_data/kd_export/buildings/AdMapKey_519.geojson",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Plugin/src/FinancialAccounts/GeneralJournal.php",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Plugin/src/FinancialAccounts/bin/triggers.sql",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Plugin/src/FinancialAccounts/GeneralJournal/GeneralJournal.php",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Plugin/src/FinancialAccounts/AccountRegister/AccountRegister.php",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Ui/plugins/accounts/main/assets/controllers/new-general-journal-controller.js",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Ui/init.js",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Ui/plugins/accounts/main/assets/controllers/account-running-balance-controller.js",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Plugin/src/FinancialAccounts/Account/Account.php",
+		"/C/dev/projects/project-kubo/kubo-core/configs/confs/database-config.json",
+		"/C/dev/projects/project-kubo/kubo-core/vendor/samshal/emmet-blue/src/Core/Connection/Adapters/SQLServer.php",
+		"/C/dev/projects/project-kubo/kubo-plugins/src/User/UserSession/Session.php",
+		"/C/dev/projects/project-kubo/kubo-core/src/PermissionGatewayMiddleware.php",
+		"/C/dev/projects/project-kubo/kubo-core/globals.json",
+		"/C/dev/projects/project-kubo/kubo-core/configs/core.json",
+		"/C/dev/projects/emmetblue/Emmet-Blue-Api/Dockerfile",
+		"/C/Users/user/.angular-config.json",
+		"/C/dev/projects/project-kubo/kubo-core/configs/core/database-config.json",
+		"/C/dev/projects/project-kubo/kubo-core/Dockerfile",
+		"/C/dev/projects/project-kubo/kubo-core/run-docker.bat",
+		"/C/dev/projects/project-kubo/kubo-core/sync-plugins.ps1",
+		"/C/dev/projects/DigiSec/Digital Secretary/Digital Secretary.csproj",
+		"/C/dev/projects/incidence-dashboard/front/src/app/incidence-workspace/incidence-workspace.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/incidence-timeline/incidence-timeline.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/coming-soon/coming-soon.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/charts-dashboard/charts-dashboard.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/header/header.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/app.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/header/header.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/header/header.component.css",
+		"/C/dev/projects/incidence-dashboard/front/src/app/app.component.css",
+		"/C/dev/projects/incidence-dashboard/front/src/app/app.module.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/viz-components/viz-components.module.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/charts-dashboard/charts-dashboard.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/charts-dashboard/charts-dashboard.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/components.module.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/viz-components/incidences-map/incidences-map.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/viz-components/incidences-by-state/incidences-by-state.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/viz-components/incidences-by-region/incidences-by-region.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/viz-components/incidences-by-region-breakdown/incidences-by-region-breakdown.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/new-incident/new-incident.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/metadata/metadata.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/incidence-workspace/incidence-workspace.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/incidence-timeline/incidence-timeline.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/horizontal-timeline/horizontal-timeline.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/routing.module.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/app-routing.module.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/shell/shell.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/app.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/header/header.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/components/shell/shell.component.ts",
+		"/C/dev/projects/nirsal-agc/front/src/app/shared/components/layout/content/content.component.html",
+		"/C/dev/projects/incidence-dashboard/front/angular.json",
+		"/C/dev/projects/incidence-dashboard/front/src/app/new-incident/new-incident.component.html",
+		"/C/dev/projects/incidence-dashboard/front/src/app/server-request.service.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/incidence-timeline/incidence-timeline.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/auth/auth.module.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/app/new-incident/new-incident.component.ts",
+		"/C/dev/projects/incidence-dashboard/front/src/assets/css/flat-top.css",
+		"/C/dev/projects/incidence-dashboard/front/src/index.html",
+		"/C/dev/incidence-dashboard/front/src/app/new-incident/new-incident.component.ts",
+		"/C/dev/incidence-dashboard/back/src/SpatialEntity/Entity/EntityMetadata.php",
+		"/C/dev/incidence-dashboard/front/node_modules/ng-select2/lib/ng-select2.component.d.ts",
+		"/C/dev/incidence-dashboard/front/src/app/app.module.ts",
+		"/C/dev/incidence-dashboard/front/node_modules/@types/select2/index.d.ts",
+		"/C/dev/incidence-dashboard/back/configs/confs/database-config.json",
+		"/C/dev/incidence-dashboard/back/src/Incidents/Stats/IncidentStats.php",
+		"/C/dev/incidence-dashboard/back/configs/core.json",
+		"/C/dev/incidence-dashboard/back/globals.json",
+		"/C/dev/incidence-dashboard/back/configs/confs/public-endpoints.json",
+		"/C/dev/incidence-dashboard/back/configs/confs/api-whitelists.json",
+		"/C/dev/incidence-dashboard/front/node_modules/ng-select2/README.md",
+		"/C/dev/incidence-dashboard/front/node_modules/ng-select2/lib/ng-select2.interface.d.ts"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+			"C:\\dev\\projects\\emmetblue\\Emmet-Blue-Ui\\plugins",
+			"C:\\dev\\projects\\emmetblue\\Emmet-Blue-Ui\\plugins\\accounts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"'",
+			"addTo",
+			"here",
+			"https://",
+			"sytemap",
+			"build",
+			"menu",
+			"$scope.dtInstance.reloadData",
+			"load-running",
+			"site",
+			"?v=kPxJ9Mk6a8",
+			"\\",
+			"?#iefix3p0rtw",
+			"?3p0rtw",
+			"?#iefix3p0rtw",
+			"?3p0rtw"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"",
+			"/",
+			""
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.ts",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1413,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1411,
+								1411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/TypeScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sytemap-js.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"login",
+				"front\\src\\app\\login\\login.component.html"
+			],
+			[
+				"newInce",
+				"front\\src\\app\\new-incident\\new-incident.component.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\dev\\projects\\houseafrica\\sytemap\\sytemap-app\\sytemap-app.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

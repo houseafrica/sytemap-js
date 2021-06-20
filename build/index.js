@@ -19,7 +19,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.attachEvent = exports.renderData = exports.initMap = void 0;
+exports.initFeatureGroup = exports.attachEvent = exports.renderData = exports.initMap = void 0;
 var L = __importStar(require("leaflet"));
 var initMap = function (elemId, layers) {
     if (layers === void 0) { layers = []; }
@@ -72,3 +72,7 @@ var attachEvent = function (obj, event, callback) {
     obj.on(event, callback);
 };
 exports.attachEvent = attachEvent;
+var initFeatureGroup = function () {
+    return new L.FeatureGroup();
+};
+exports.initFeatureGroup = initFeatureGroup;
