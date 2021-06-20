@@ -53,6 +53,6 @@ export const attachEvent = (obj: any, event: string, callback: any): any => {
 	obj.on(event, callback);
 }
 
-export const initFeatureGroup = (): any => {
-	return new L.FeatureGroup();
+export const initLayerGroup = (): any => {
+	return L.layerGroup();
 }
