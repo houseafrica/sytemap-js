@@ -23,7 +23,7 @@ export const initMap = (elemId: string, layers: any = {}): any => {
 	layerControl.addTo(map);
 
 	return {
-		"map":map,
+		"mapObject":map,
 		"layerControl":layerControl
 	};
 }

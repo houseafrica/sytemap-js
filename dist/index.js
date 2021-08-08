@@ -39,7 +39,7 @@ var initMap = function (elemId, layers) {
     exports.layerControl = L.control.layers(baseLayers, {}, { collapsed: false });
     exports.layerControl.addTo(map);
     return {
-        "map": map,
+        "mapObject": map,
         "layerControl": exports.layerControl
     };
 };
