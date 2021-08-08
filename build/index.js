@@ -22,22 +22,29 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.initLayerGroup = exports.initFeatureGroup = exports.attachEvent = exports.renderData = exports.initMap = void 0;
 var L = __importStar(require("leaflet"));
 var initMap = function (elemId, layers) {
-    if (layers === void 0) { layers = []; }
-    var map = L.map(elemId).setView([0, 0], 3);
-    if (layers.length == 0) {
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    if (layers === void 0) { layers = {}; }
+    var baseLayers = {};
+    var mainBaseLayer = [L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+        })];
+    for (var layerName in layers) {
+        var layer = layers[layerName];
+        baseLayers[layerName] = L.tileLayer(layer.url, layer.opts);
+        mainBaseLayer.push(baseLayers[layerName]);
     }
-    else {
-        var layer = layers[0];
-        console.log(layer);
-        L.tileLayer(layer.url, layer.opts).addTo(map);
-    }
-    return map;
+    var map = L.map(elemId, {
+        layers: mainBaseLayer
+    }).setView([0, 0], 3);
+    exports.layerControl = L.control.layers(baseLayers, {}, { collapsed: false });
+    exports.layerControl.addTo(map);
+    return {
+        "map": map,
+        "layerControl": exports.layerControl
+    };
 };
 exports.initMap = initMap;
-var renderData = function (mapObject, geojson, styleProps) {
+var renderData = function (mapObject, geojson, layerName, styleProps) {
+    if (layerName === void 0) { layerName = ""; }
     if (styleProps === void 0) { styleProps = {}; }
     var styleFunc;
     if (typeof styleProps.conditions !== "undefined") {

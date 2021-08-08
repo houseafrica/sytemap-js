@@ -1,22 +1,34 @@
 import * as L from "leaflet";
 
-export const initMap = (elemId: string, layers: any = []): any => {
-	const map = L.map(elemId).setView([0,0], 3);
-	if (layers.length == 0){	
-		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);	
-	}
-	else {
-		const layer = layers[0];
-		console.log(layer);
-		L.tileLayer(layer.url, layer.opts).addTo(map);
+export declare let layerControl: any;
+
+export const initMap = (elemId: string, layers: any = {}): any => {
+	let baseLayers: any = {};
+	let mainBaseLayer: any = [L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	})];
+
+	for (let layerName in layers){
+		let layer = layers[layerName]
+		baseLayers[layerName] = L.tileLayer(layer.url, layer.opts);
+		mainBaseLayer.push(baseLayers[layerName]);
 	}
 
-	return map;
+	const map = L.map(elemId, {
+		layers: mainBaseLayer
+	}).setView([0,0], 3);
+
+	layerControl = L.control.layers(baseLayers, {}, {collapsed:false});
+
+	layerControl.addTo(map);
+
+	return {
+		"map":map,
+		"layerControl":layerControl
+	};
 }
 
-export const renderData = (mapObject: any, geojson: any, styleProps: any = {}): any => {
+export const renderData = (mapObject: any, geojson: any, layerName: any = "", styleProps: any = {}): any => {
 	let styleFunc;
 	if (typeof styleProps.conditions !== "undefined"){
 		const prop = styleProps.property;
